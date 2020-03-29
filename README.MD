@@ -20,6 +20,9 @@ git commit -m "first commit"
 git remote add origin https://github.com/ailinwang0501/work.git
 git push -u origin master 
 
+git pull //拉回远端内容
+
+
 ## 创建表脚本
 ```sql
 create table USER
