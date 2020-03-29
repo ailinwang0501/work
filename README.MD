@@ -19,6 +19,7 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ailinwang0501/work.git
 git push -u origin master 
+git pull
 
 ## 创建表脚本
 ```sql
@@ -31,7 +32,7 @@ create table USER
 	GMT_CREATE BIGINT,
 	GMT_MODIFIED BIGINT,
 	constraint USER_PK
-		primary key (ID)
+	primary key (ID)
 );
 ```
 
