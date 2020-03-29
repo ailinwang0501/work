@@ -19,10 +19,12 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ailinwang0501/work.git
 git push -u origin master 
-git pull
+
 
 git pull //拉回远端内容
-
+press ESC
+input :x 
+git push
 
 ## 创建表脚本
 ```sql
