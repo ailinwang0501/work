@@ -7,6 +7,7 @@
 [Github](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)
 [Bootstrap](https://www.bootcss.com/)
 [oAuth](https://developer.github.com/apps/managing-oauth-apps/)
+[Spring Docs](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-support)
 
 ##工具
 [Github](https://desktop.github.com/)
@@ -18,3 +19,26 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ailinwang0501/work.git
 git push -u origin master 
+
+## create table
+create table USER
+(
+	ID INT auto_increment,
+	ACCOUNT_ID VARCHAR(100),
+	NAME VARCHAR(50),
+	TOKEN VARCHAR(36),
+	GMT_CREATE BIGINT,
+	GMT_MODIFIED BIGINT,
+	constraint USER_PK
+		primary key (ID)
+);
+
+
+
+##快捷键
+ command + 左键 跳转到 *.class
+ alt + enter  import class 自动修复
+ command + N  set and get
+ command + alt +V 自动抽取变量
+ shift + F6 重命名
+ command + alt + o  自动移除无用的引入文件
