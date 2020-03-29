@@ -20,7 +20,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/ailinwang0501/work.git
 git push -u origin master 
 
-## create table
+## 创建表脚本
+```sql
 create table USER
 (
 	ID INT auto_increment,
@@ -32,8 +33,13 @@ create table USER
 	constraint USER_PK
 		primary key (ID)
 );
+```
 
 
+##Wrong table name or password
+1. open H2 console
+2. create user if not exists sa password '123';
+3. alter user sa admin true;
 
 ##快捷键
  command + 左键 跳转到 *.class
