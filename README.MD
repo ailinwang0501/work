@@ -8,6 +8,7 @@
 [Bootstrap](https://www.bootcss.com/)
 [oAuth](https://developer.github.com/apps/managing-oauth-apps/)
 [Spring Docs](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-support)
+[Flyway ](https://flywaydb.org/getstarted/firststeps/maven)
 
 ##工具
 [Github](https://desktop.github.com/)
@@ -20,6 +21,42 @@
  command + alt +V 自动抽取变量
  shift + F6 重命名
  command + alt + o  自动移除无用的引入文件
+ div.col-lg-9 + table 自动生成div
+ Command＋Alt＋L    格式化代码
+ 
+ ##get from BAIDU
+ Command＋B     打开光标处的方法或者类
+ Command＋C     复制
+ Command＋D     复制行(直接复制到下一行)
+ Command＋E     打开最近更改的代码
+ Command＋F     查找
+ 
+ command＋H     隐藏窗口
+ Command＋J     自动代码,比如for循环(单独详细讲)
+ command＋N     查找类(外部指创建文件)
+ command＋O     打开文档（外部通用）
+ Command＋R     替换
+ 
+ command＋S      保存文件
+ command＋W      关闭现有窗口(不仅仅指IDEA窗口)
+ Command＋Y      删除行
+ command＋Tab    切换窗口
+ Command＋左右键  快速至行尾、行首
+ command+/       注释一行或着多行 //(注意这个要在语言是英文状态下)
+ 
+ 。
+ Command＋Shift＋U  大小写转换
+ Command＋Alt＋O    优化导入的类和包
+ Command＋Shift＋Enter  自动结束代码，行末自动添加分号; 
+ 
+ Ctrl＋空格键         中英切换;
+ Ctrl＋Enter         出现生成get,set方法的界面
+ Ctrl＋Alt+H         查看谁调用了该方法
+ Ctrl＋Shift+/       注释/…/（注意这个要在语言是英文状态下）
+ 
+ Alt＋Command＋左右键   快速回到上次修改的地方
+ Alt+Command＋Z.      丢弃选中代码的修改(针对Git而言）
+ Shift＋Command＋上下键 代码向上下移动
  
 ##github command##
 git init
@@ -34,7 +71,7 @@ press ESC
 input :x 
 git push
 
-## 创建表脚本
+## 脚本
 ```sql
 create table USER
 (
@@ -47,6 +84,10 @@ create table USER
 	constraint USER_PK
 	primary key (ID)
 );
+```
+
+```bash
+mvn flyway:migrate
 ```
 
 ##Wrong table name or password
