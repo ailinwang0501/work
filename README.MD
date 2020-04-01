@@ -35,7 +35,7 @@
  Command＋J     自动代码,比如for循环(单独详细讲)
  command＋N     查找类(外部指创建文件)
  command＋O     打开文档（外部通用）
- Command＋R     替换
+ Command＋R     替换 根据搜索提示最近的动作
  
  command＋S      保存文件
  command＋W      关闭现有窗口(不仅仅指IDEA窗口)
