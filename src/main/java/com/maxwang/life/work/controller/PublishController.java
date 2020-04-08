@@ -54,6 +54,7 @@ public class PublishController {
 
         User user = null;
         Cookie[] cookies = request.getCookies();
+        if(cookies !=null &&cookies.length!=0)
         for (Cookie cookie : cookies) { //输入 cookies.for 自动匹配格式
             if (cookie.getName().equals("token")) {
                 String token = cookie.getValue();

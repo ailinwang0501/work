@@ -13,6 +13,7 @@
 ##工具
 [Github](https://desktop.github.com/)
 [Visual Paradigm](https://www.visual-paradigm.com/cn/)
+[Lombok](https://projectlombok.org/)
 
 ##快捷键
  command + 左键 跳转到 *.class

@@ -1,10 +1,14 @@
 package com.maxwang.life.work.dto;
 
+import lombok.Data;
+
+@Data
 public class GithubUser {
     private String name;
     private Long id;
     private String bio;
-
+    private String avatar_url;
+/*
     public String getName() {
         return name;
     }
@@ -36,5 +40,5 @@ public class GithubUser {
                 ", id=" + id +
                 ", bio='" + bio + '\'' +
                 '}';
-    } // command N setter and getter and to string
+    } // command N setter and getter and to string*/
 }
